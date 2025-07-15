@@ -1545,496 +1545,6 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
-
-			.row {
-				display: flex;
-				flex-wrap: wrap;
-				box-sizing: border-box;
-				align-items: stretch;
-			}
-
-				.row > * {
-					box-sizing: border-box;
-				}
-
-				.row.gtr-uniform > * > :last-child {
-					margin-bottom: 0;
-				}
-
-				.row.aln-left {
-					justify-content: flex-start;
-				}
-
-				.row.aln-center {
-					justify-content: center;
-				}
-
-				.row.aln-right {
-					justify-content: flex-end;
-				}
-
-				.row.aln-top {
-					align-items: flex-start;
-				}
-
-				.row.aln-middle {
-					align-items: center;
-				}
-
-				.row.aln-bottom {
-					align-items: flex-end;
-				}
-
-				.row > .imp-xsmall {
-					order: -1;
-				}
-
-				.row > .col-1-xsmall {
-					width: 8.33333%;
-				}
-
-				.row > .off-1-xsmall {
-					margin-left: 8.33333%;
-				}
-
-				.row > .col-2-xsmall {
-					width: 16.66667%;
-				}
-
-				.row > .off-2-xsmall {
-					margin-left: 16.66667%;
-				}
-
-				.row > .col-3-xsmall {
-					width: 25%;
-				}
-
-				.row > .off-3-xsmall {
-					margin-left: 25%;
-				}
-
-				.row > .col-4-xsmall {
-					width: 33.33333%;
-				}
-
-				.row > .off-4-xsmall {
-					margin-left: 33.33333%;
-				}
-
-				.row > .col-5-xsmall {
-					width: 41.66667%;
-				}
-
-				.row > .off-5-xsmall {
-					margin-left: 41.66667%;
-				}
-
-				.row > .col-6-xsmall {
-					width: 50%;
-				}
-
-				.row > .off-6-xsmall {
-					margin-left: 50%;
-				}
-
-				.row > .col-7-xsmall {
-					width: 58.33333%;
-				}
-
-				.row > .off-7-xsmall {
-					margin-left: 58.33333%;
-				}
-
-				.row > .col-8-xsmall {
-					width: 66.66667%;
-				}
-
-				.row > .off-8-xsmall {
-					margin-left: 66.66667%;
-				}
-
-				.row > .col-9-xsmall {
-					width: 75%;
-				}
-
-				.row > .off-9-xsmall {
-					margin-left: 75%;
-				}
-
-				.row > .col-10-xsmall {
-					width: 83.33333%;
-				}
-
-				.row > .off-10-xsmall {
-					margin-left: 83.33333%;
-				}
-
-				.row > .col-11-xsmall {
-					width: 91.66667%;
-				}
-
-				.row > .off-11-xsmall {
-					margin-left: 91.66667%;
-				}
-
-				.row > .col-12-xsmall {
-					width: 100%;
-				}
-
-				.row > .off-12-xsmall {
-					margin-left: 100%;
-				}
-
-				.row.gtr-0 {
-					margin-top: 0;
-					margin-left: 0rem;
-				}
-
-					.row.gtr-0 > * {
-						padding: 0 0 0 0rem;
-					}
-
-					.row.gtr-0.gtr-uniform {
-						margin-top: 0rem;
-					}
-
-						.row.gtr-0.gtr-uniform > * {
-							padding-top: 0rem;
-						}
-
-				.row.gtr-25 {
-					margin-top: 0;
-					margin-left: -0.375rem;
-				}
-
-					.row.gtr-25 > * {
-						padding: 0 0 0 0.375rem;
-					}
-
-					.row.gtr-25.gtr-uniform {
-						margin-top: -0.375rem;
-					}
-
-						.row.gtr-25.gtr-uniform > * {
-							padding-top: 0.375rem;
-						}
-
-				.row.gtr-50 {
-					margin-top: 0;
-					margin-left: -0.75rem;
-				}
-
-					.row.gtr-50 > * {
-						padding: 0 0 0 0.75rem;
-					}
-
-					.row.gtr-50.gtr-uniform {
-						margin-top: -0.75rem;
-					}
-
-						.row.gtr-50.gtr-uniform > * {
-							padding-top: 0.75rem;
-						}
-
-				.row {
-					margin-top: 0;
-					margin-left: -1.5rem;
-				}
-
-					.row > * {
-						padding: 0 0 0 1.5rem;
-					}
-
-					.row.gtr-uniform {
-						margin-top: -1.5rem;
-					}
-
-						.row.gtr-uniform > * {
-							padding-top: 1.5rem;
-						}
-
-				.row.gtr-150 {
-					margin-top: 0;
-					margin-left: -2.25rem;
-				}
-
-					.row.gtr-150 > * {
-						padding: 0 0 0 2.25rem;
-					}
-
-					.row.gtr-150.gtr-uniform {
-						margin-top: -2.25rem;
-					}
-
-						.row.gtr-150.gtr-uniform > * {
-							padding-top: 2.25rem;
-						}
-
-				.row.gtr-200 {
-					margin-top: 0;
-					margin-left: -3rem;
-				}
-
-					.row.gtr-200 > * {
-						padding: 0 0 0 3rem;
-					}
-
-					.row.gtr-200.gtr-uniform {
-						margin-top: -3rem;
-					}
-
-						.row.gtr-200.gtr-uniform > * {
-							padding-top: 3rem;
-						}
-
-		}
-
-		@media screen and (max-width: 360px) {
-
-			.row {
-				display: flex;
-				flex-wrap: wrap;
-				box-sizing: border-box;
-				align-items: stretch;
-			}
-
-				.row > * {
-					box-sizing: border-box;
-				}
-
-				.row.gtr-uniform > * > :last-child {
-					margin-bottom: 0;
-				}
-
-				.row.aln-left {
-					justify-content: flex-start;
-				}
-
-				.row.aln-center {
-					justify-content: center;
-				}
-
-				.row.aln-right {
-					justify-content: flex-end;
-				}
-
-				.row.aln-top {
-					align-items: flex-start;
-				}
-
-				.row.aln-middle {
-					align-items: center;
-				}
-
-				.row.aln-bottom {
-					align-items: flex-end;
-				}
-
-				.row > .imp-xxsmall {
-					order: -1;
-				}
-
-				.row > .col-1-xxsmall {
-					width: 8.33333%;
-				}
-
-				.row > .off-1-xxsmall {
-					margin-left: 8.33333%;
-				}
-
-				.row > .col-2-xxsmall {
-					width: 16.66667%;
-				}
-
-				.row > .off-2-xxsmall {
-					margin-left: 16.66667%;
-				}
-
-				.row > .col-3-xxsmall {
-					width: 25%;
-				}
-
-				.row > .off-3-xxsmall {
-					margin-left: 25%;
-				}
-
-				.row > .col-4-xxsmall {
-					width: 33.33333%;
-				}
-
-				.row > .off-4-xxsmall {
-					margin-left: 33.33333%;
-				}
-
-				.row > .col-5-xxsmall {
-					width: 41.66667%;
-				}
-
-				.row > .off-5-xxsmall {
-					margin-left: 41.66667%;
-				}
-
-				.row > .col-6-xxsmall {
-					width: 50%;
-				}
-
-				.row > .off-6-xxsmall {
-					margin-left: 50%;
-				}
-
-				.row > .col-7-xxsmall {
-					width: 58.33333%;
-				}
-
-				.row > .off-7-xxsmall {
-					margin-left: 58.33333%;
-				}
-
-				.row > .col-8-xxsmall {
-					width: 66.66667%;
-				}
-
-				.row > .off-8-xxsmall {
-					margin-left: 66.66667%;
-				}
-
-				.row > .col-9-xxsmall {
-					width: 75%;
-				}
-
-				.row > .off-9-xxsmall {
-					margin-left: 75%;
-				}
-
-				.row > .col-10-xxsmall {
-					width: 83.33333%;
-				}
-
-				.row > .off-10-xxsmall {
-					margin-left: 83.33333%;
-				}
-
-				.row > .col-11-xxsmall {
-					width: 91.66667%;
-				}
-
-				.row > .off-11-xxsmall {
-					margin-left: 91.66667%;
-				}
-
-				.row > .col-12-xxsmall {
-					width: 100%;
-				}
-
-				.row > .off-12-xxsmall {
-					margin-left: 100%;
-				}
-
-				.row.gtr-0 {
-					margin-top: 0;
-					margin-left: 0rem;
-				}
-
-					.row.gtr-0 > * {
-						padding: 0 0 0 0rem;
-					}
-
-					.row.gtr-0.gtr-uniform {
-						margin-top: 0rem;
-					}
-
-						.row.gtr-0.gtr-uniform > * {
-							padding-top: 0rem;
-						}
-
-				.row.gtr-25 {
-					margin-top: 0;
-					margin-left: -0.375rem;
-				}
-
-					.row.gtr-25 > * {
-						padding: 0 0 0 0.375rem;
-					}
-
-					.row.gtr-25.gtr-uniform {
-						margin-top: -0.375rem;
-					}
-
-						.row.gtr-25.gtr-uniform > * {
-							padding-top: 0.375rem;
-						}
-
-				.row.gtr-50 {
-					margin-top: 0;
-					margin-left: -0.75rem;
-				}
-
-					.row.gtr-50 > * {
-						padding: 0 0 0 0.75rem;
-					}
-
-					.row.gtr-50.gtr-uniform {
-						margin-top: -0.75rem;
-					}
-
-						.row.gtr-50.gtr-uniform > * {
-							padding-top: 0.75rem;
-						}
-
-				.row {
-					margin-top: 0;
-					margin-left: -1.5rem;
-				}
-
-					.row > * {
-						padding: 0 0 0 1.5rem;
-					}
-
-					.row.gtr-uniform {
-						margin-top: -1.5rem;
-					}
-
-						.row.gtr-uniform > * {
-							padding-top: 1.5rem;
-						}
-
-				.row.gtr-150 {
-					margin-top: 0;
-					margin-left: -2.25rem;
-				}
-
-					.row.gtr-150 > * {
-						padding: 0 0 0 2.25rem;
-					}
-
-					.row.gtr-150.gtr-uniform {
-						margin-top: -2.25rem;
-					}
-
-						.row.gtr-150.gtr-uniform > * {
-							padding-top: 2.25rem;
-						}
-
-				.row.gtr-200 {
-					margin-top: 0;
-					margin-left: -3rem;
-				}
-
-					.row.gtr-200 > * {
-						padding: 0 0 0 3rem;
-					}
-
-					.row.gtr-200.gtr-uniform {
-						margin-top: -3rem;
-					}
-
-						.row.gtr-200.gtr-uniform > * {
-							padding-top: 3rem;
-						}
-
-		}
-
 /* Box */
 
 	.box {
@@ -2450,7 +1960,7 @@ input, select, textarea {
 			content: '\f00c';
 		}
 
-	input[type="checkbox"] + label:before {
+	input[type="checkbox"] + label {
 		border-radius: 0;
 	}
 
@@ -2622,6 +2132,9 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			/* Added for uniform image height */
+			height: 15rem; /* Adjust this value as needed */
+			overflow: hidden; /* Hide overflowing parts of the image */
 		}
 
 			.image.fit:first-child {
@@ -2630,6 +2143,10 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				/* Added for uniform image height and object-fit */
+				height: 100%;
+				object-fit: cover; /* Ensures the image covers the area, cropping if necessary */
+				object-position: center; /* Centers the image within its container */
 			}
 
 		.image.main {
@@ -2650,30 +2167,13 @@ input, select, textarea {
 
 			.image.fit {
 				margin: 2rem 0;
+				height: 10rem; /* Adjust height for smaller screens if needed */
 			}
 
 			.image.main {
 				margin: 2rem 0;
 			}
 
-		}
-
-	a.image {
-		overflow: hidden;
-	}
-
-		a.image img {
-			-moz-transition: -moz-transform 0.2s ease-out;
-			-webkit-transition: -webkit-transform 0.2s ease-out;
-			-ms-transition: -ms-transform 0.2s ease-out;
-			transition: transform 0.2s ease-out;
-		}
-
-		a.image:hover img {
-			-moz-transform: scale(1.05);
-			-webkit-transform: scale(1.05);
-			-ms-transform: scale(1.05);
-			transform: scale(1.05);
 		}
 
 /* Actions */
@@ -3824,44 +3324,30 @@ input, select, textarea {
 			}
 
 		#main > .posts {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			-moz-flex-wrap: wrap;
-			-webkit-flex-wrap: wrap;
-			-ms-flex-wrap: wrap;
+			display: flex; /* Changed from -moz-flex, -webkit-flex, -ms-flex for broader compatibility */
 			flex-wrap: wrap;
-			-moz-align-items: -moz-stretch;
-			-webkit-align-items: -webkit-stretch;
-			-ms-align-items: -ms-stretch;
-			align-items: stretch;
+			justify-content: space-between; /* Distributes space between items */
+			align-items: stretch; /* Ensures all items in a row have the same height */
 			text-align: center;
 			width: 100%;
-			padding: 0;
+			padding: 0; /* Adjust if you need padding around the entire posts section */
 		}
 
 			#main > .posts > * {
-				-moz-flex-shrink: 1;
-				-webkit-flex-shrink: 1;
-				-ms-flex-shrink: 1;
 				flex-shrink: 1;
-				-moz-flex-grow: 0;
-				-webkit-flex-grow: 0;
-				-ms-flex-grow: 0;
 				flex-grow: 0;
 			}
 
 			#main > .posts > * {
-				width: 50%;
-			}
-
-			#main > .posts > * {
-				padding: 4rem;
-				width: 50%;
+				width: calc(50% - 1em); /* Adjusted for two columns with a small gap */
+				padding: 4rem; /* Keep padding inside each article */
+				margin-bottom: 2em; /* Add margin between rows */
 			}
 
 			#main > .posts > article {
+				display: flex; /* Make each article a flex container */
+				flex-direction: column; /* Stack content vertically */
+				justify-content: space-between; /* Pushes content to top, and the last item (button) to bottom */
 				border-color: #eeeeee;
 				border-left-width: 2px;
 				border-style: solid;
@@ -3881,15 +3367,31 @@ input, select, textarea {
 					border-top-width: 0;
 				}
 
+				/* Ensure paragraph takes up available space */
+				#main > .posts > article p {
+					flex-grow: 1; /* Allows the paragraph to grow and fill available space */
+					margin-bottom: 1.5rem; /* Add some space between text and button */
+				}
+
+				/* Push the actions (button) to the bottom of the article */
+				#main > .posts > article .actions.special {
+					margin-top: auto; /* This is the key: pushes this element to the end of the flex container */
+					width: 100%; /* Ensure the button row takes full width */
+					/* text-align: center; already defined for special actions */
+				}
+
+				/* Ensure the button itself takes full width within its container */
+				#main > .posts > article .actions.special li a.button {
+					width: 100%;
+					display: block;
+				}
+
+
 			@media screen and (max-width: 980px) {
 
 				#main > .posts > * {
-					width: 50%;
-				}
-
-				#main > .posts > * {
+					width: calc(50% - 1em); /* Adjusted for two columns with a small gap */
 					padding: 2.5rem;
-					width: 50%;
 				}
 
 			}
@@ -3897,28 +3399,26 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#main > .posts > * {
-					width: 100%;
-				}
-
-				#main > .posts > * {
+					width: 100%; /* Full width on smaller screens */
 					padding: 2rem;
-					width: 100%;
+					margin-left: 0; /* Ensure no extra margin from column calculations */
+					margin-right: 0;
 				}
 
 				#main > .posts > article:nth-child(2n - 1) {
-					border-left-width: 2px;
+					border-left-width: 2px; /* Restore border for single column */
 				}
 
 				#main > .posts > article:nth-child(-n + 2) {
-					border-top-width: 2px;
+					border-top-width: 2px; /* Restore border for single column */
 				}
 
 				#main > .posts > article:nth-child(n) {
-					border-left-width: 0;
+					border-left-width: 0; /* Remove left border for all on mobile to avoid double borders */
 				}
 
 				#main > .posts > article:nth-child(-n + 1) {
-					border-top-width: 0;
+					border-top-width: 0; /* Only first article has no top border on mobile */
 				}
 
 				#main > .posts > article .image {
